@@ -1,0 +1,136 @@
+
+@import url('https://fonts.google.com/specimen/Josefin+Sans?query=josefin+sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background: #001e4d;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.quiz-section {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(206, 92%, 94);
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+#quiz {
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+#quiz h2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 1rem 0 4rem 0;
+
+}
+
+#quiz li {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+input {
+    cursor: pointer;
+}
+
+#submit .btn {
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #74b9ff;
+    margin-top: 40rem;
+    padding: 2rem 5rem;
+}
+
+#submit:hover {
+    background-color: #0984e3;
+}
+
+input[type="radio"]:checked {
+    background-color: #8ec5fc;
+    border-color: #8ec5fc;
+}
+
+button {
+    padding: 0 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    background-color: #7890e7;
+    border: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.result {
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+}
+
+.result h2 {
+    font-size: 54.4px;
+}
+
+.result p {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
